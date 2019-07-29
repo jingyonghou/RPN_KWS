@@ -1,2 +1,3 @@
 # RPN_KWS
-Region proposal network based small-footprint keyword spotting
+Source code of paper "Region Proposal Network Based Small-Footprint Keyword Spotting"
+(To be published soon)
