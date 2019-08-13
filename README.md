@@ -1,6 +1,7 @@
 # RPN_KWS
 Pytorch code of paper "Region Proposal Network Based Small-Footprint Keyword Spotting"
 
+Please cite the work below if you want to use the code or want to do research related to our work
 ```
 @article{hou2019Region,
   title={Region Proposal Network Based Small-Footprint Keyword Spotting},
@@ -14,6 +15,7 @@ Pytorch code of paper "Region Proposal Network Based Small-Footprint Keyword Spo
 
 ![image](https://github.com/jingyonghou/RPN_KWS/raw/master/Picture2.png)
 
+The red box is the ground-truth box of keyword from force alignment, the blue box is best anchor selected according to the classification score, the green box is the proposed region proposal corresponding to the best anchor
 ## 
 
 # Running enviroment
