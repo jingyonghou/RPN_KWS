@@ -1,0 +1,17 @@
+# we ingnore all the file at first                                                                                                                              
+/*
+**
+# Reserve some general file
+!.gitignore
+!*.md
+!LICENSE*
+
+# sufix
+!*.conf
+!*.py
+!*.sh
+!*.h
+!*.c
+!*.cpp
+!*.c++
+!*.cu
