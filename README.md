@@ -22,7 +22,7 @@ The red box is the ground-truth box of keyword from force alignment, the blue bo
 ### pytorch 0.4.1
 ### CUDA 8.0 or higher
 ### Kaldi
-You should know basic knowledge of Kaldi before look at the run script, I used Kaldi to extract Fbank features and did a globel CMVN use the statictics from all training set. You should add cmd.sh, path.sh, steps and utils to your working path before you run the script.
+You should know basic knowledge of Kaldi before look at the run script, I used Kaldi to extract Fbank features and did a global CMVN use the statictics from all training set. You should add cmd.sh, path.sh, steps and utils to your working path before you run the script.
 
 ### Please follow the run_rpn_kws.sh script to learn how to run the code
 
