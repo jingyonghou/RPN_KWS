@@ -17,7 +17,7 @@ Please cite the work below if you want to use the code or want to do research re
 
 The red box is the ground-truth box of keyword from force alignment, the blue box is best anchor selected according to the classification score, the green box is the proposed region proposal corresponding to the best anchor
 
-## Running enviroment
+## Running environment
 ### Python 2.7.15
 ### pytorch 0.4.1
 ### CUDA 8.0 or higher
