@@ -10,9 +10,9 @@ Pytorch code of paper "Region Proposal Network Based Small-Footprint Keyword Spo
 }
 ```
 # Detection samples
-![image](https://github.com/jingyonghou/RPN_KWS/edit/master/picture1.png)
+![image](https://github.com/jingyonghou/RPN_KWS/master/picture1.png)
 
-![image](https://github.com/jingyonghou/RPN_KWS/edit/master/picture2.png)
+![image](https://github.com/jingyonghou/RPN_KWS/master/picture2.png)
 
 ## 
 
