@@ -9,6 +9,12 @@ Pytorch code of paper "Region Proposal Network Based Small-Footprint Keyword Spo
   year={2019}
 }
 ```
+# Detection samples
+![image](https://github.com/jingyonghou/RPN_KWS/edit/master/images/picture1.png)
+
+![image](https://github.com/jingyonghou/RPN_KWS/edit/master/images/picture2.png)
+
+## 
 
 # Running enviroment
 ## Python 2.7.15
