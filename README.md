@@ -16,7 +16,6 @@ Please cite the work below if you want to use the code or want to do research re
 ![image](https://github.com/jingyonghou/RPN_KWS/raw/master/Picture2.png)
 
 The red box is the ground-truth box of keyword from force alignment, the blue box is best anchor selected according to the classification score, the green box is the proposed region proposal corresponding to the best anchor
-## 
 
 # Running enviroment
 ## Python 2.7.15
@@ -27,7 +26,7 @@ You should know basic knowledge of Kaldi before look at the run script, I used K
 
 ## Please follow the run_rpn_kws.sh script to learn how to run the code
 
-## reference
+# reference
 https://github.com/jwyang/faster-rcnn.pytorch
 
 https://github.com/vesis84/kaldi-io-for-python
