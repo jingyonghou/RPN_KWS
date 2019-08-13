@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+
+# Copyrigh 2018 houjingyong@gmail.com
+
+# MIT Licence
+
 import numpy as np
 import torch
 from torch.autograd import Variable

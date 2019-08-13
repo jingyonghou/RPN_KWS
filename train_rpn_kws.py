@@ -2,7 +2,7 @@
 
 # Copyrigh 2018 houjingyong@gmail.com
 
-# Apache 2.0.
+# MIT Licence
 
 from __future__ import print_function
 
@@ -15,7 +15,6 @@ import torch.optim as optim
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
-import add_path
 from bbox_transform import get_out_utt_boxes
 from config import cfg
 from config import cfg_from_file

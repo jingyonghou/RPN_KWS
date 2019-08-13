@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+#
+# Copyright 2018 houjingyong@gmail.com
+#
+# Lisence MIT
+#
+
+
 import sys
 LableDict = {'freetext': 0,
              'hixiaowen': 1,

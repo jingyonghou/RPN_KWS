@@ -1,10 +1,15 @@
+#!/usr/bin/env python
+
+# Copyrigh 2018 houjingyong@gmail.com
+
+# MIT Licence
+
 from __future__ import absolute_import 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 
-import add_path
 from RNNs import GRU
 from basic_nodes import LinearBlock
 from proposal_layer import ProposalLayer

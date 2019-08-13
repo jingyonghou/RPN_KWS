@@ -1,10 +1,16 @@
 #!/bin/bash
 
+# Copyrigh 2018 houjingyong@gmail.com
+
+# MIT Licence
+
 . ./cmd.sh
 . ./path.sh
 . ./utils/parse_options.sh
+# Above file is from Kaldi, there are some commands from Kaldi, too.
 
 set -e 
+
 stage=0
 path=./
 data=$path/fbank
@@ -24,15 +30,15 @@ if [ $stage -le 0 ]; then
         python prepare_torch_scp.py $data/$x/feats.scp $data/labels.scp $data/$x/lens.scp 1000 $data/$x/torch.scp
     done
 fi
-gpu_num=0
-batch_size=400
-learning_rate=0.002
-halving_factor=0.5
-num_anchor=20
-left_context=0
+gpu_num=0 # which GPU do you use
+batch_size=400 # how many utterances used per mini-batch
+learning_rate=0.002 # learning rate
+halving_factor=0.5 # annealing penalty factor
+num_anchor=20 # how many anchor per frame
+left_context=0 
 right_context=0
 filler=0
-output_dim=3
+output_dim=3 
 hidden_dim=128
 num_layers=2
 dropout=0.5

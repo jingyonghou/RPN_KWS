@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+
+# Copyrigh 2018 houjingyong@gmail.com
+
+# MIT Licence
+
 from __future__ import print_function
 
 import torch

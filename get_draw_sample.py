@@ -1,8 +1,13 @@
+#!/usr/bin/env python
+#
+# Copyright 2018 houjingyong@gmail.com
+#
+# Lisence MIT
+#
 import os
 import sys
 import shutil
 
-import add_path
 from build_scp import build_scp_dict
 
 if __name__=="__main__":

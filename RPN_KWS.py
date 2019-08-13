@@ -1,9 +1,14 @@
+#!/usr/bin/env python
+
+# Copyrigh 2018 houjingyong@gmail.com
+
+# MIT Licence
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 
-import add_path
 from anchor_target_layer import AnchorTargetLayer
 from config import cfg
 from bbox_transform import clip_boxes, get_small_big_boxes 
@@ -63,7 +68,7 @@ class RPN_KWS(nn.Module):
             self.rpn_loss_cls = F.cross_entropy(rpn_cls_score, rpn_label)
 
             rpn_bbox_targets, rpn_bbox_inside_weights, rpn_bbox_outside_weights = rpn_data[1:]
-            self.rpn_loss_bbox = smooth_l1_loss(rpn_bbox_pred, rpn_bbox_targets, rpn_bbox_inside_weights, rpn_bbox_outside_weights, sigma=3, dim=[0,1])
+            self.rpn_loss_bbox = smooth_l1_loss(rpn_bbox_pred, rpn_bbox_targets, rpn_bbox_inside_weights, rpn_bbox_outside_weights, sigma=10, dim=[0,1])
             
             return rois, rpn_cls_score, rpn_label, self.rpn_loss_cls, self.rpn_loss_bbox 
         return rois, rpn_cls_score, anchors_per_utt

@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+
+# Copyrigh 2018 houjingyong@gmail.com
+
+# MIT Licence
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

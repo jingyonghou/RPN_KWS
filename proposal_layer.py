@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+
+# Copyrigh 2018 houjingyong@gmail.com
+
+# MIT Licence
+
 from __future__ import absolute_import
 
 import torch 
