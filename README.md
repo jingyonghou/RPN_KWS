@@ -15,7 +15,8 @@ Please cite the work below if you want to use the code or want to do research re
 
 ![image](https://github.com/jingyonghou/RPN_KWS/raw/master/Picture2.png)
 
-The red box is the ground-truth box of keyword from force alignment, the blue box is best anchor selected according to the classification score, the green box is the proposed region proposal corresponding to the best anchor
+Selected two utterances which contrains keyword. The red box is the ground-truth box of keyword from force alignment, the blue box is best anchor selected according to the classification score, the green box is the proposed region proposal corresponding to the best anchor.
+
 
 ## Running environment
 ### Python 2.7.15
