@@ -14,6 +14,6 @@ Pytorch code of paper "Region Proposal Network Based Small-Footprint Keyword Spo
 ## Python 2.7.15
 ## pytorch 0.4.1
 
-# Please follow the run_rpn_kws.sh script to learn how to run the code
+## Please follow the run_rpn_kws.sh script to learn how to run the code
 
-# You should know basic knowledge of Kaldi before run the code, I used Kaldi to extract Fbank features and did a globel CMVN use the statictics from all training set. 
+## You should know basic knowledge of Kaldi before run the code, I used Kaldi to extract Fbank features and did a globel CMVN use the statictics from all training set. 
