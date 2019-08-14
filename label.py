@@ -20,9 +20,9 @@ class KWS_Label():
             for j in range(1, len(self.metadata[i])-2, 2):
                 self.label_dict[key].append([int(self.matadata[i][j]), # first position
                                              int(self.matadata[i][j+1]), # second position
-                                             int(self.matadata[i][j+2]]) # class number of keyword
-            
-     def get_item(utt_id):
+                                             int(self.matadata[i][j+2])]) # class number of keyword
+
+    def get_item(self, utt_id):
         if self.label_dict.has_key(utt_id):
             return self.label_dict[utt_id]
         else:
