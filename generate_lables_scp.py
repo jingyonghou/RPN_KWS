@@ -47,6 +47,7 @@ def write_kws_lables(fid, utt_id, label, factor):
 if __name__=="__main__":
     if(len(sys.argv) < 3):
         print("USAGE:python %s phone_ali.ark kws_lable.scp [sub_sampling_factor]"%(sys.argv[0]))
+        exit(1)
     fid = open(sys.argv[2],"w")
     if (len(sys.argv) == 4):
         factor = int(sys.argv[3])
