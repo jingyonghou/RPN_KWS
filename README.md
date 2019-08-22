@@ -1,6 +1,6 @@
 # RPN_KWS
 Pytorch code of paper "Region Proposal Network Based Small-Footprint Keyword Spotting"
-https://ieeexplore.ieee.org/document/8807313/authors
+https://ieeexplore.ieee.org/document/8807313
 
 Please cite the work below if you want to use the code or want to do research related to our work
 ```
