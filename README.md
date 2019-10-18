@@ -4,11 +4,15 @@ https://ieeexplore.ieee.org/document/8807313
 
 Please cite the work below if you want to use the code or want to do research related to our work
 ```
-@article{hou2019Region,
-  title={Region Proposal Network Based Small-Footprint Keyword Spotting},
-  author={Jingyong Hou and Yangyang Shi and Mari Ostendorf and Mei-Yuh Hwang and Lei Xie},
-  journal={Signal Processing Letters (\textbf{accepted})},
-  year={2019}
+@ARTICLE{hou2019region, 
+author={Hou, Jingyong and Shi, Yangyang and Ostendorf, Mari and  Hwang, Mei-Yuh
+and Xie, Lei }, 
+journal={IEEE Signal Processing Letters}, 
+title={Region Proposal Network Based Small-Footprint Keyword Spotting}, 
+year={2019}, 
+volume={26}, 
+number={10}, 
+pages={1471-1475}
 }
 ```
 ## Detection samples
