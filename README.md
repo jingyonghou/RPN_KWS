@@ -16,8 +16,9 @@ pages={1471-1475}
 }
 ```
 
-I will release a RPN KWS code with Hard example mining algorithm, which will improve our system even more.
+I will release a new version of RPN KWS with an Online Hard Example Mining (OHEM) algorithm, which will improve our system.
 
+https://github.com/jingyonghou/RPN_KWS_OHEM
 
 ## Detection samples
 ![image](https://github.com/jingyonghou/RPN_KWS/raw/master/Picture1.png)
