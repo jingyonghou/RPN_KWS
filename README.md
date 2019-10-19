@@ -15,6 +15,10 @@ number={10},
 pages={1471-1475}
 }
 ```
+
+I will release a RPN KWS code with Hard example mining algorithm, which will improve our system even more.
+
+
 ## Detection samples
 ![image](https://github.com/jingyonghou/RPN_KWS/raw/master/Picture1.png)
 
