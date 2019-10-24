@@ -25,7 +25,7 @@ https://github.com/jingyonghou/RPN_KWS_OHEM
 
 ![image](https://github.com/jingyonghou/RPN_KWS/raw/master/Picture2.png)
 
-Selected two utterances which contrain predefined keyword. The red box is the ground-truth start-end area of keyword from forced-alignment, the blue box is the best anchor selected according to the classification score, the green box is the proposed region proposal corresponding to the best anchor.
+Selected two utterances which contains predefined keyword. The red box is the ground-truth start-end area of keyword from forced-alignment, the blue box is the best anchor selected according to the classification score, the green box is the proposed region proposal corresponding to the best anchor.
 
 
 ## Running environment
@@ -33,7 +33,7 @@ Selected two utterances which contrain predefined keyword. The red box is the gr
 ### pytorch 0.4.1
 ### CUDA 8.0 or higher
 ### Kaldi
-You should know basic knowledge of Kaldi before look at the run script, I used Kaldi to extract Fbank features and did a global CMVN using the statictics from all training set. You should add cmd.sh, path.sh, steps and utils to your working dir before you run the script.
+You should know basic knowledge of Kaldi before looking at the run script. I use Kaldi to extract Fbank features and do a global CMVN using the statictics from all training set. You should add cmd.sh, path.sh, steps and utils to your working dir before you run the script.
 
 ### Please follow the run_rpn_kws.sh script to learn how to run the code
 
