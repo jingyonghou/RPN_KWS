@@ -86,7 +86,7 @@ class AnchorTargetLayer(nn.Module):
         if num_positive < 1:
             num_positive += 1
         positive_weights = 1.0 / num_positive.item()
-        negative_weights = 1.0 / num_positive.item()
+        negative_weights = 1.0 / num_negative.item()
         bbox_outside_weights[rpn_labels > 0] = positive_weights
         bbox_outside_weights[rpn_labels == 0] = negative_weights
         bbox_outside_weights = bbox_outside_weights.view(batch_size, num_anchors_per_utt, 1).expand(batch_size, num_anchors_per_utt,2)
